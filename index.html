@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>metaimperiya | ACCESSORY - High-End Jewelry, Eyewear & Fashion Details</title>
+    <meta name="description" content="metaimperiya Accessory: Exclusive collection of high-detail jewelry, watches, eyewear, and fashion accessories for Sims 4. Premium digital assets for character styling.">
+    <meta name="keywords" content="metaimperiya, accessory shop, sims 4 jewelry, luxury watches, eyewear mods, sims 4 hats, fashion accessories, 3d assets jewelry">
+    <meta name="author" content="metaimperiya">
+    <meta name="robots" content="index, follow">
+
+    <style>
+        :root { --gold: #ffcc00; --bg: #000; --panel: #111; --text: #eee; }
+        body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; margin: 0; line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
+
+        header { padding: 60px 0; border-bottom: 3px solid var(--gold); text-align: center; }
+        h1 { font-size: clamp(40px, 9vw, 110px); margin: 0; color: var(--gold); text-transform: lowercase; letter-spacing: -5px; line-height: 0.8; }
+        .dept-tag { display: inline-block; background: var(--gold); color: #000; padding: 5px 25px; font-weight: 900; margin-top: 20px; text-transform: uppercase; font-size: 14px; letter-spacing: 2px; }
+
+        /* ОПИС ВІДДІЛУ */
+        .intro { padding: 50px 0; border-bottom: 1px solid #222; }
+        .intro h2 { color: var(--gold); text-transform: uppercase; font-size: 30px; letter-spacing: 1px; }
+        .intro p { font-size: 19px; color: #aaa; max-width: 900px; font-weight: 300; }
+
+        /* КАТЕГОРІЇ АКСЕСУАРІВ */
+        .acc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; padding: 60px 0; }
+        .acc-card { background: var(--panel); border: 1px solid #1a1a1a; padding: 45px; position: relative; transition: 0.4s; border-right: 4px solid var(--gold); }
+        .acc-card:hover { border-color: var(--gold); background: #151515; transform: scale(1.02); }
+        .acc-card h3 { color: var(--gold); text-transform: uppercase; margin-top: 0; font-size: 22px; border-bottom: 1px solid #333; padding-bottom: 15px; }
+        .acc-card ul { list-style: none; padding: 0; margin-top: 20px; font-size: 14px; color: #777; }
+        .acc-card li { margin-bottom: 10px; padding-left: 15px; position: relative; }
+        .acc-card li::before { content: "»"; position: absolute; left: 0; color: var(--gold); }
+
+        /* SEO ТЕКСТ ПІДВАЛУ */
+        .seo-footer-block { background: #050505; padding: 100px 0; border-top: 1px solid #111; }
+        .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 50px; }
+        .info-grid h4 { color: var(--gold); text-transform: uppercase; margin-bottom: 20px; font-size: 18px; border-left: 4px solid var(--gold); padding-left: 15px; }
+        .info-grid p { font-size: 14px; color: #555; line-height: 1.8; text-align: justify; }
+
+        footer { padding: 50px; text-align: center; border-top: 1px solid #0a0a0a; color: #222; font-size: 12px; text-transform: uppercase; letter-spacing: 6px; }
+        
+        nav { display: flex; justify-content: center; gap: 35px; margin-bottom: 40px; }
+        nav a { color: #fff; text-decoration: none; font-size: 12px; font-weight: bold; text-transform: uppercase; opacity: 0.5; transition: 0.3s; }
+        nav a:hover { opacity: 1; color: var(--gold); }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <nav>
+                <a href="#jewelry">Jewelry</a>
+                <a href="#eyewear">Eyewear</a>
+                <a href="#headwear">Headwear</a>
+                <a href="#tech">Details</a>
+            </nav>
+            <h1>metaimperiya</h1>
+            <div class="dept-tag">ACCESSORY DEPARTMENT</div>
+        </header>
+
+        <section class="intro">
+            <h2>Мистецтво досконалості в деталях</h2>
+            <p>
+                Розділ <strong>metaimperiya ACCESSORY</strong> — це фінальний акорд у створенні образу. Ми зібрали тисячі унікальних елементів: від елітної ювелірки та швейцарських годинників до тактичних окулярів та дизайнерських капелюхів. Саме ці дрібниці перетворюють звичайний набір одягу на цілісний, дорогий стиль, який виділяє ваш контент серед мільйонів інших.
+            </p>
+        </section>
+
+        <main class="acc-grid">
+            <div id="jewelry" class="acc-card">
+                <h3>Jewelry & Watches</h3>
+                <ul>
+                    <li>Золоті та платинові ланцюжки</li>
+                    <li>Кільця з високою деталізацією каменів</li>
+                    <li>Преміальні годинники світових брендів</li>
+                </ul>
+            </div>
+            <div id="eyewear" class="acc-card">
+                <h3>Eyewear Studio</h3>
+                <ul>
+                    <li>Сонцезахисні окуляри (Luxury)</li>
+                    <li>Тактичні та спортивні моделі</li>
+                    <li>Класичні оправи для інтелектуального стилю</li>
+                </ul>
+            </div>
+            <div id="headwear" class="acc-card">
+                <h3>Headwear & Extras</h3>
+                <ul>
+                    <li>Дизайнерські капелюхи та кепки</li>
+                    <li>Шарфи, рукавички та ремені</li>
+                    <li>Пірсинг та натільні прикраси</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+
+    <section class="seo-footer-block">
+        <div class="container">
+            <div class="info-grid">
+                <div class="col">
+                    <h4>Важливість аксесуарів</h4>
+                    <p>У світі <strong>metaimperiya</strong> аксесуари — це не просто додатки, це маркери статусу. Кожен об'єкт у розділі <strong>Accessory</strong> розроблений з урахуванням сучасних трендів моди та вимог до високої чіткості текстур, що робить їх незамінними для макрозйомок у ваших відео.</p>
+                </div>
+                <div class="col">
+                    <h4>Технічна досконалість</h4>
+                    <p>Наші аксесуари для Sims 4 та 3D-проектів оптимізовані для роботи в режимі Ultra. Ми використовуємо кастомні карти нормалей, щоб метал блищав, а скло окулярів мало реалістичні відблиски, не навантажуючи при цьому систему.</p>
+                </div>
+                <div class="col">
+                    <h4>Універсальна сумісність</h4>
+                    <p>Усі позиції відділу <strong>ACCESSORY</strong> протестовані на сумісність з одягом та скінами інших департаментів Мегамоллу. Створюйте складні, багатошарові образи, які підкреслять унікальність ваших цифрових героїв.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        metaimperiya © 2026 | ACCESSORY DEPARTMENT | DEFINING THE STYLE
+    </footer>
+
+</body>
+</html>
